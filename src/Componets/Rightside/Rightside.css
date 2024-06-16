@@ -1,0 +1,243 @@
+.Rightside {
+    width: 400px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px 5px;
+}
+
+.tagss {
+    width: 100%;
+    height: 160px;
+    border-bottom: 0.1px solid rgba(245, 245, 245, 0.237);
+    margin-bottom: 10px;
+}
+
+.tagsname {
+    width: 100%;
+    height: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    color: aliceblue;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18px;
+    cursor: pointer;
+}
+
+.tagsnameiccon {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    padding-block: 0.4rem;
+    padding-inline: 0.5rem;
+    background-color: rgba(34, 33, 33, 0.424);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #ffff;
+    gap: 10px;
+    font-weight: bold;
+    border: 3px solid #ffffff4d;
+    outline: none;
+    overflow: hidden;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.iccon {
+    width: 20px;
+    height: 20px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.781);
+    color: #000;
+}
+
+
+
+.button:hover .iccon {
+    transform: translate(4px);
+}
+
+.button:hover::before {
+    animation: shine 1.5s ease-out infinite;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    background-image: linear-gradient(120deg,
+            rgba(255, 255, 255, 0) 30%,
+            rgba(255, 255, 255, 0.8),
+            rgba(255, 255, 255, 0) 70%);
+    top: 0;
+    left: -100px;
+    opacity: 0.6;
+}
+
+@keyframes shine {
+    0% {
+        left: -100px;
+    }
+
+    60% {
+        left: 100%;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+.RecentSongs {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 0px 2px;
+
+}
+
+
+
+.recentsongg {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5px 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-bottom: 5px;
+
+}
+
+.recentsongg:hover {
+    backdrop-filter: blur(16px) saturate(142%);
+    -webkit-backdrop-filter: blur(16px) saturate(142%);
+    background-color: rgba(102, 104, 106, 0.5);
+    transition: 0.4s ease-in-out;
+
+
+}
+
+.songrecentimg {
+    width: 35px;
+    height: 100%;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.songrecentName {
+    width: 110px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2px 0px;
+}
+
+.songrecentDate {
+    width: 60px;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2px 0px;
+    align-items: center;
+}
+
+.songrecentimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.songNameii {
+    font-size: 14px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.songNamewriter {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.726);
+}
+
+.seeMore {
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(240, 248, 255, 0.726);
+    margin-left: 16px;
+}
+
+.SongsImgplay {
+    width: 100%;
+    height: 240px;
+    border-radius: 10px;
+    background-color: rgba(34, 33, 33, 0.671)
+}
+
+.songimageplay {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+
+.songimageplay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.songnamePlayi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    color: aliceblue;
+    padding: 0px 0px;
+}

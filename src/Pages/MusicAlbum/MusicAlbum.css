@@ -1,0 +1,166 @@
+.MusicAlbumm {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    overflow-y: auto;
+}
+
+.topbottomalbum {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.topbottomalbumlist {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 5px;
+    color: rgb(204, 209, 211);
+    font-size: 14px;
+    border: transparent;
+    margin-bottom: 70px;
+}
+
+.headerlist {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: rgb(204, 209, 211);
+    padding-bottom: 15px;
+}
+
+.songlist {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    color: rgb(204, 209, 211);
+    /* background-color: rgb(31, 32, 33); */
+    border-radius: 6px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.songlist:hover {
+    backdrop-filter: blur(16px) saturate(142%);
+    -webkit-backdrop-filter: blur(16px) saturate(142%);
+    background-color: rgba(102, 104, 106, 0.5);
+
+}
+
+.songlist ul {
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    height: 100%;
+}
+
+.headerlist ul {
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    height: 100%;
+}
+
+.headerlist ul li {
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    width: 100px;
+    height: 100%;
+}
+
+.Titlei {
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    width: 250px;
+    display: flex;
+    color: whitesmoke;
+    height: 100%;
+    align-items: center;
+}
+
+.Titleiii {
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    width: 150px;
+    display: flex;
+    color: whitesmoke;
+    height: 100%;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.AlbumNameti {
+    text-decoration: none;
+    font-size: 15px;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    line-height: 18px;
+}
+
+.songli {
+    font-weight: 600;
+}
+
+.songliWritter {
+    font-weight: 400;
+    font-size: 11px;
+    color: rgb(174, 171, 171);
+
+}
+
+.Titleii {
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 100%;
+}
+
+.songrecentseris {
+    width: 5px;
+    margin-right: 12px;
+}
+
+.songrecentimgplay {
+    width: 45px;
+    height: 40px;
+    border-radius: 4px;
+    margin-right: 12px;
+    margin-top: 1px;
+}
+
+.songrecentimgplay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}

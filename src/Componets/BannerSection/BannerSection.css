@@ -1,0 +1,344 @@
+.topalbum {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+
+.bottomalbum {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(204, 209, 211);
+    font-size: 14px;
+}
+
+.topbottomalbumlist {
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: rgb(204, 209, 211);
+    font-size: 14px;
+    border-bottom: 0.1px solid rgba(245, 245, 245, 0.187);
+    margin-bottom: 30px;
+}
+
+.topbottomalbumlistt {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: rgb(204, 209, 211);
+    font-size: 14px;
+}
+
+.topbottomalbumlistsong {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 30px;
+    color: rgb(204, 209, 211);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.topbottomalbumlistt:hover .likeadd {
+
+    opacity: 1;
+
+}
+
+.topbottomalbumlistt:hover .playiconn {
+
+    opacity: 1;
+
+}
+
+.topbottomalbumlistt:hover h6 {
+
+    opacity: 0;
+
+}
+
+.topbottomalbumlistt:hover {
+    background-color: rgb(35, 34, 34);
+
+}
+
+.topbottomalbumlistt .likeadd {
+    font-size: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.playiconn {
+    color: aliceblue;
+    font-size: 12px;
+    position: absolute;
+    opacity: 0;
+}
+
+h6 {
+    color: rgba(204, 209, 211, 0.858);
+    font-size: 13px;
+    margin-left: 0px;
+    display: flex;
+    font-weight: 500;
+}
+
+.hash {
+    margin-right: 10px;
+}
+
+.clock {
+    color: rgba(204, 209, 211, 0.858);
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.albumimgg {
+    width: 230px;
+    height: 180px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.albumimgg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+
+}
+
+.albumname {
+    width: 100%;
+    height: 170px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: aliceblue;
+    padding: 0px 20px;
+    line-height: 39px;
+}
+
+.madeByYou {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: aliceblue;
+
+}
+
+.public {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.hit {
+    font-size: 4vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.spotifyicon {
+    font-size: 18px;
+    color: #1ED760;
+    margin-right: 5px;
+
+}
+
+.playpausealbum {
+    width: 42px;
+    height: 43px;
+    background-color: #1ED760;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.likealbum {
+    width: 52px;
+    height: 53px;
+    border-radius: 50%;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(240, 248, 255, 0.575);
+}
+
+.Listt {
+    width: 52px;
+    height: 53px;
+    border-radius: 50%;
+    font-size: 14.5px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+    color: rgba(240, 248, 255, 0.575);
+    position: relative;
+    left: 700px;
+}
+
+.songi {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 0px;
+}
+
+.albmname {
+    display: flex;
+    width: 100px;
+}
+
+.albmname3 {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.songimg {
+    width: 42px;
+    height: 100%;
+    border-radius: 3px;
+    margin-left: 19px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.songimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3px;
+
+}
+
+.songname {
+    line-height: 20px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.songtitle {
+    font-weight: 600;
+    font-size: 14px;
+    width: 100%;
+}
+
+.songtitle:hover {
+    text-decoration: underline;
+}
+
+.songwriter:hover {
+    text-decoration: underline;
+}
+
+.songwriter {
+    font-weight: 400;
+    font-size: 13px;
+    width: 100%;
+    color: rgba(240, 248, 255, 0.767);
+
+}
+
+.songtime {
+    font-weight: 500;
+    color: rgba(240, 248, 255, 0.804);
+}
+
+.firstpartb {
+    width: 220px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.secondpartb {
+    width: 170px;
+    height: 50px;
+    position: relative;
+    left: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+    cursor: pointer;
+
+}
+
+.thirdpartb {
+    width: 140px;
+    height: 50px;
+    position: relative;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 0px;
+    cursor: pointer;
+
+}
+
+.lastpartb {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    cursor: pointer;
+
+}

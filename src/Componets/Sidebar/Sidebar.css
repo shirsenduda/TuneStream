@@ -1,0 +1,302 @@
+.sidebar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 323px;
+    height: 100vh;
+    padding: 10px 8px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.Li {
+    color: #b3b3b3;
+    text-decoration: none;
+    transition: all 0.4s ease-out;
+    display: flex;
+
+}
+
+.Li:hover {
+    color: #ffffff;
+    transition: all 0.4s ease-out;
+
+}
+
+.sidebar .logo img {
+    width: 130px;
+}
+
+.icons {
+    font-size: 24px;
+    margin-right: 14px;
+    position: relative;
+    top: 5px;
+    color: #b3b3b3;
+}
+
+.iconlike {
+    width: 25px !important;
+    height: 25px !important;
+    background: #4A39EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    margin-right: 14px;
+    position: relative;
+    top: 5px;
+    padding: 0px 0px;
+    color: #b3b3b3;
+    border-radius: 3px;
+
+}
+
+.navigationlogo {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 25px;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-right: 60px;
+}
+.logoimg{
+    width: 40px;
+    height: 20px;
+}
+.logoimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logoname{
+    height: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #00C2CB;
+}
+
+
+.sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation ul li a:hover .fa:active,
+.sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+}
+
+
+
+
+
+.sidebar .navigation ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0px 20px;
+}
+
+.sidebar .navigation ul li {
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+
+}
+
+.sidebar .navigation ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus {
+    color: #ffffff;
+}
+
+.sidebar .navigation ul li a:hover .fa,
+.sidebar .navigation ul li a:active .fa,
+.sidebar .navigation ul li a:focus .fa {
+    color: #b3b3b3;
+}
+
+.sidebar .navigation ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation ul li a:hover .fa:active,
+.sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+}
+
+.navigationtw {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 245px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+}
+
+.sidebar .navigationtw ul {
+    list-style: none;
+    margin-top: 0px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.sidebar .navigationtw ul li {
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.likespan {
+    position: relative;
+    top: 12.4px;
+    font-size: 14.2px;
+}
+
+.iconplus {
+    font-size: 26px;
+    margin-right: 0px;
+    position: relative;
+    top: 8px;
+    left: 20px;
+    color: #b3b3b3;
+}
+
+.sidebar .navigationtw ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.sidebar .navigationtw ul li a:hover,
+.sidebar .navigationtw ul li a:active,
+.sidebar .navigationtw ul li a:focus {
+    color: #ffffff;
+}
+
+.sidebar .navigationtw ul li a:hover .fa,
+.sidebar .navigationtw ul li a:active .fa,
+.sidebar .navigationtw ul li a:focus .fa {
+    color: #b3b3b3;
+}
+
+.sidebar .navigationtw ul li .fa {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.sidebar .navigationtw ul li a:hover .fa:hover,
+.sidebar .navigationtw ul li a:hover .fa:active,
+.sidebar .navigationtw ul li a:hover .fa:focus {
+    color: #ffffff;
+}
+
+.createplaylist {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(35, 34, 34);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px 15px;
+    justify-content: space-evenly;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ease {
+    font-size: 11px;
+    color: #b3b3b3;
+    font-weight: 200;
+}
+
+.btmusic2 {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 0px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.btmusic2:hover {
+    background-color: #f2f2f2;
+}
+
+.sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+}
+
+.sidebar .policies ul {
+    list-style: none;
+}
+
+.sidebar .policies ul li {
+    padding-bottom: 5px;
+}
+
+.sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.sidebar .policies ul li a:hover,
+.sidebar .policies ul li a:active,
+.sidebar .policies ul li a:focus {
+    text-decoration: underline;
+}
+
+.Logout {
+    width: 100%;
+    border-top: 0.1px solid rgba(245, 245, 245, 0.151);
+    margin-top: 30px;
+    padding-right: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
