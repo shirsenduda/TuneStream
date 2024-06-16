@@ -5,7 +5,7 @@ import axios from "axios";
 const Login = () => {
   const handleClick = async () => {
     const client_id = "f26ee9d1f49d414285ef9b1c66231bca";
-    const redirect_uri = "http://localhost:5173/";
+    const redirect_uri = "https://tunify-flax.vercel.app/";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",

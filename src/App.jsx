@@ -21,14 +21,12 @@ const App = () => {
     <>
       {token ? (
         <>
-        
-        <div className="main">
+          <div className="main">
             <Sidebar />
             {/* <Cursor /> */}
             <Home />
             <Rightside />
           </div>
-          
         </>
       ) : (
         <Login />

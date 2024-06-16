@@ -32,7 +32,7 @@ export default function Playlists() {
   return (
     <ErrorBoundary>
       <div className="SongsDispalySection">
-      <div className="topsongsdisplay">Top Collections</div>
+        <div className="topsongsdisplay">Top Collections</div>
 
         {playlists.map((dataa, id) => (
           <SongsPlaydisplay dataa={dataa} id={id} />
