@@ -71,9 +71,7 @@ const Sidebar = () => {
                   <VscLibrary />
                 </span>
                 <span className="likespan">Your Library</span>
-                <span className="iconplus">
-                  <GoPlus />
-                </span>
+                
               </li>
             </Link>
 
