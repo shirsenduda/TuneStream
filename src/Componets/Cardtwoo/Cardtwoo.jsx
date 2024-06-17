@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import './Cardtwoo.css'
+import "./Cardtwoo.css";
+import { FaPlayCircle } from "react-icons/fa";
 const Cardtwoo = () => {
   return (
     <>
@@ -10,7 +11,15 @@ const Cardtwoo = () => {
           <div className="card-body">
             <h2 className="namei">Loki</h2>
             <h6 className="dess">Loki challenges reality with time travel.</h6>
-            <button className="watchlist-btn">Play</button>
+            <button className="watchlist-btn">
+              <div className="playicon">
+                <FaPlayCircle />
+              </div>
+              <div className="playtex">
+              Play Now
+
+              </div>
+            </button>
           </div>
         </div>
       </div>
