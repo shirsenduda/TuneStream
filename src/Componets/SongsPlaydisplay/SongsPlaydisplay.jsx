@@ -15,13 +15,13 @@ const SongsPlaydisplay = ({dataa,id,}) => {
         onClick={()=>navigate(`/MusicAlbum/${id}`)}
       >
         <div className="albumimg">
-          <img src={dataa.images[0].url} />
+          <img src={dataa.musicImg} />
         </div>
 
         {/* <div className="playho"></div> */}
         <div className="text">
-          <div className="top">{dataa.name}</div>
-          <div className="bottom">{dataa.description}</div>
+          <div className="top">{dataa.musicAlbumGroup}</div>
+          <div className="bottom">{dataa.musicAlbumDescription}</div>
         </div>
       </div>
     </>

@@ -1,12 +1,15 @@
-.sidebar {
+.sidebartw {
     left: 0;
     top: 0;
     bottom: 0;
-    width: 323px;
+    /* z-index: 99;
+    position: absolute; */
+    width: 100px;
     height: 100vh;
     padding: 10px 8px;
     height: 100%;
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
+    background-color: transparent;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 10px;
@@ -14,6 +17,27 @@
     white-space: nowrap;
     overflow: hidden;
     overflow-y: auto;
+}
+.sidebar {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /* z-index: 99;
+    position: absolute; */
+    width: 323px;
+    height: 100vh;
+    padding: 10px 8px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-y: auto;
+    display: none;
 }
 
 .Li {
@@ -30,7 +54,7 @@
 
 }
 
-.sidebar .logo img {
+ .logo img {
     width: 130px;
 }
 
@@ -40,20 +64,22 @@
     position: relative;
     top: 5px;
     color: #b3b3b3;
+    border-radius: 4px;
 }
-
+/* .icons:hover{
+    background-color: #051732b6;
+} */
 .iconlike {
-    width: 25px !important;
+    width: 40px !important;
     height: 25px !important;
     background: #4A39EA;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 17px;
-    margin-right: 14px;
+    font-size: 22px;
     position: relative;
     top: 5px;
-    padding: 0px 0px;
+    /* padding: 0px 0px; */
     color: #b3b3b3;
     border-radius: 3px;
 
@@ -68,10 +94,10 @@
     border-radius: 8px;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     color: aliceblue;
-    padding-right: 60px;
+    padding-left: 12px;
     margin-bottom: 15px;
 }
 .logoimg{
@@ -91,14 +117,14 @@
 }
 
 
-.sidebar .navigation ul li .fa {
+ .navigation ul li .fa {
     font-size: 20px;
     margin-right: 10px;
 }
 
-.sidebar .navigation ul li a:hover .fa:hover,
-.sidebar .navigation ul li a:hover .fa:active,
-.sidebar .navigation ul li a:hover .fa:focus {
+ .navigation ul li a:hover .fa:hover,
+ .navigation ul li a:hover .fa:active,
+ .navigation ul li a:hover .fa:focus {
     color: #ffffff;
 }
 
@@ -106,7 +132,7 @@
 
 
 
-.sidebar .navigation ul {
+ .navigation ul {
     list-style: none;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -115,7 +141,7 @@
     padding: 0px 20px;
 }
 
-.sidebar .navigation ul li {
+ .navigation ul li {
     padding: 10px 0px;
     font-size: 14px;
     font-weight: 600;
@@ -123,33 +149,33 @@
 
 }
 
-.sidebar .navigation ul li a {
+ .navigation ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
 }
 
-.sidebar .navigation ul li a:hover,
-.sidebar .navigation ul li a:active,
-.sidebar .navigation ul li a:focus {
+ .navigation ul li a:hover,
+ .navigation ul li a:active,
+ .navigation ul li a:focus {
     color: #ffffff;
 }
 
-.sidebar .navigation ul li a:hover .fa,
-.sidebar .navigation ul li a:active .fa,
-.sidebar .navigation ul li a:focus .fa {
+ .navigation ul li a:hover .fa,
+ .navigation ul li a:active .fa,
+ .navigation ul li a:focus .fa {
     color: #b3b3b3;
 }
 
-.sidebar .navigation ul li .fa {
+ .navigation ul li .fa {
     font-size: 20px;
     margin-right: 10px;
 }
 
-.sidebar .navigation ul li a:hover .fa:hover,
-.sidebar .navigation ul li a:hover .fa:active,
-.sidebar .navigation ul li a:hover .fa:focus {
+ .navigation ul li a:hover .fa:hover,
+ .navigation ul li a:hover .fa:active,
+ .navigation ul li a:hover .fa:focus {
     color: #ffffff;
 }
 
@@ -164,14 +190,14 @@
     padding-bottom: 10px;
 }
 
-.sidebar .navigationtw ul {
+ .navigationtw ul {
     list-style: none;
     margin-top: 0px;
     width: 100%;
     padding-bottom: 10px;
 }
 
-.sidebar .navigationtw ul li {
+ .navigationtw ul li {
     padding: 10px 0px;
     font-size: 14px;
     font-weight: 600;
@@ -197,33 +223,33 @@
     color: #b3b3b3;
 }
 
-.sidebar .navigationtw ul li a {
+ .navigationtw ul li a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: bold;
     font-size: 13px;
 }
 
-.sidebar .navigationtw ul li a:hover,
-.sidebar .navigationtw ul li a:active,
-.sidebar .navigationtw ul li a:focus {
+ .navigationtw ul li a:hover,
+ .navigationtw ul li a:active,
+ .navigationtw ul li a:focus {
     color: #ffffff;
 }
 
-.sidebar .navigationtw ul li a:hover .fa,
-.sidebar .navigationtw ul li a:active .fa,
-.sidebar .navigationtw ul li a:focus .fa {
+ .navigationtw ul li a:hover .fa,
+ .navigationtw ul li a:active .fa,
+ .navigationtw ul li a:focus .fa {
     color: #b3b3b3;
 }
 
-.sidebar .navigationtw ul li .fa {
+ .navigationtw ul li .fa {
     font-size: 20px;
     margin-right: 10px;
 }
 
-.sidebar .navigationtw ul li a:hover .fa:hover,
-.sidebar .navigationtw ul li a:hover .fa:active,
-.sidebar .navigationtw ul li a:hover .fa:focus {
+ .navigationtw ul li a:hover .fa:hover,
+ .navigationtw ul li a:hover .fa:active,
+ .navigationtw ul li a:hover .fa:focus {
     color: #ffffff;
 }
 
@@ -263,29 +289,29 @@
     background-color: #f2f2f2;
 }
 
-.sidebar .policies {
+ .policies {
     position: absolute;
     bottom: 100px;
 }
 
-.sidebar .policies ul {
+ .policies ul {
     list-style: none;
 }
 
-.sidebar .policies ul li {
+ .policies ul li {
     padding-bottom: 5px;
 }
 
-.sidebar .policies ul li a {
+ .policies ul li a {
     color: #b3b3b3;
     font-weight: 500;
     text-decoration: none;
     font-size: 10px;
 }
 
-.sidebar .policies ul li a:hover,
-.sidebar .policies ul li a:active,
-.sidebar .policies ul li a:focus {
+ .policies ul li a:hover,
+ .policies ul li a:active,
+ .policies ul li a:focus {
     text-decoration: underline;
 }
 
@@ -293,11 +319,9 @@
     width: 100%;
     border-top: 0.1px solid rgba(245, 245, 245, 0.151);
     margin-top: 30px;
-    padding-right: 40px;
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     cursor: pointer;
 }

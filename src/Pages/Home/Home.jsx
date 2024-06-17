@@ -9,7 +9,7 @@ import PlayPause from "../../Componets/PlayPause/PlayPause";
 import SongsItempage from "../../Pages/SongsItempage/SongsItempage";
 import { Musicdata } from "../../MusicProvider/MusicProvider";
 import MusicAlbum from "../MusicAlbum/MusicAlbum";
-
+import LibrarySection from '../LibrarySection/LibrarySection'
 const Home = () => {
   
   const displayRef = useRef();
@@ -33,6 +33,7 @@ const Home = () => {
           <Route path="/" element={<SongDisplay />} />
           <Route path="/MusicAlbum/:id" element={<MusicAlbum/>} />
           <Route path="/SongItem/:id" element={<SongsItempage />} />
+          <Route path="/Library" element={<LibrarySection/>} />
         </Routes>
         <PlayPause />
       </div>

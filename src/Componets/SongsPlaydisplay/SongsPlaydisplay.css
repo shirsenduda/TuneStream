@@ -9,6 +9,7 @@
     cursor: pointer;
     transition: all 0.4s ease-in-out;
     margin-bottom: 16px;
+    margin-right: 4px;
 }
 
 .albumimg {

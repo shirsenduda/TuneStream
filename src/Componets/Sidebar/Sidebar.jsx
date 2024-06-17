@@ -65,24 +65,15 @@ const Sidebar = () => {
 
         <div className="navigationtw">
           <ul>
-            <Link to={"/Like/"} className="Li">
+            <Link to={"/Library/"} className="Li">
               <li>
                 <span className="icons">
                   <VscLibrary />
                 </span>
                 <span className="likespan">Your Library</span>
-                
               </li>
             </Link>
 
-            <Link to={"/"} className="Li">
-              <li>
-                <span className="icons">
-                  <GiLoveSong />
-                </span>
-                <span className="likespan">Songs</span>
-              </li>
-            </Link>
             <Link to={"/"} className="Li">
               <li>
                 <span className="iconlike">
@@ -99,6 +90,82 @@ const Sidebar = () => {
                   <IoIosLogOut />
                 </span>
                 <span>Logout</span>
+              </li>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="sidebartw">
+        <div className="navigationlogo">
+          <div className="logoimg">
+            <img src="./img/musium_logo-removebg-preview.png" alt="" />
+          </div>
+          <div className="logoname"></div>
+        </div>
+        <div className="navigation">
+          <ul>
+            <Link to={"/"} className="Li">
+              <li>
+                <span className="icons">
+                  <MdHomeFilled />
+                </span>
+                <span></span>
+              </li>
+            </Link>
+            <Link to={"/"} className="Li">
+              <li>
+                <span className="icons">
+                  <SiYoutubeshorts />
+                </span>
+                <span></span>
+              </li>
+            </Link>
+            <Link to={"/MusicAlbum/"} className="Li">
+              <li>
+                <span className="icons">
+                  <FaYoutube />
+                </span>
+                <span></span>
+              </li>
+            </Link>
+            <Link to={"/"} className="Li">
+              <li>
+                <span className="icons">
+                  <CiMicrophoneOn />
+                </span>
+                <span></span>
+              </li>
+            </Link>
+          </ul>
+        </div>
+
+        <div className="navigationtw">
+          <ul>
+            <Link to={"/Library/"} className="Li">
+              <li>
+                <span className="icons">
+                  <VscLibrary />
+                </span>
+                <span className="likespan"></span>
+              </li>
+            </Link>
+
+            <Link to={"/"} className="Li">
+              <li>
+                <span className="iconlike">
+                  <IoMdHeart />
+                </span>
+                <span className="likespan"></span>
+              </li>
+            </Link>
+          </ul>
+          <div className="Logout" onClick={() => navigate(-1)}>
+            <div className="Li">
+              <li>
+                <span className="icons">
+                  <IoIosLogOut />
+                </span>
+                <span></span>
               </li>
             </div>
           </div>
