@@ -1,6 +1,6 @@
 .preview {
     position: fixed;
-    bottom: 0;
+    bottom: -10px;
     left: 0;
     right: 0;
     height: 90px;
@@ -12,7 +12,7 @@
     backdrop-filter: blur(16px) saturate(142%);
     -webkit-backdrop-filter: blur(16px) saturate(142%);
     background-color: rgba(102, 104, 106, 0.5);
-    height: 85px;
+    height: 78px;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;

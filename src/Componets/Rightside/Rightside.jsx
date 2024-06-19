@@ -5,15 +5,15 @@ import "./Rightside.css";
 import { RxCross2 } from "react-icons/rx";
 import { CiMusicNote1 } from "react-icons/ci";
 import { IoTrendingUp } from "react-icons/io5";
+import { FaPlayCircle } from "react-icons/fa";
 import Artist from "../Artist/Artist";
 import { ArtistImg, RecentSongs } from "../../MusicProvider/MusicProvider";
 const Rightside = () => {
-  
   // RecentSongs ,ArtistImg
   return (
     <>
       <div className="Rightside">
-        <div className="tagss">
+        {/* <div className="tagss">
           <div className="tagsname">
             Tags <RxCross2 />
           </div>
@@ -37,8 +37,12 @@ const Rightside = () => {
               </div>
             </button>
           </div>
-        </div>
+        </div> */}
         <div className="RecentSongs">
+          <div className="tagsname">
+            Top songs
+            <div className="seeMore">See more</div>
+          </div>
           {RecentSongs.map((i, index) => (
             <div className="recentsongg" id={i.id}>
               <div className="songrecentimg">
@@ -49,7 +53,10 @@ const Rightside = () => {
                 <div className="songNamewriter">Taylor Swift</div>
               </div>
               <div className="songrecentDate">
-                <div className="songNamewriter">{i.musicAlbumDate} min ago</div>
+                <div className="playicon">
+                  {" "}
+                  <FaPlayCircle />{" "}
+                </div>
               </div>
             </div>
           ))}

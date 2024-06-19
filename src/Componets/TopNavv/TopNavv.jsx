@@ -6,11 +6,14 @@ import "remixicon/fonts/remixicon.css";
 import { IoIosArrowBack } from "react-icons/io";
 import { IoIosArrowForward } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
-
-const TopNavv = () => {
+import { RxHamburgerMenu } from "react-icons/rx";
+// eslint-disable-next-line react/prop-types
+const TopNavv = ({sidebardesktopfunctionclick}) => {
   const navigate = useNavigate();
   const [name, setname] = useState("shirsendu");
-  const [imgUser, setimgUser] = useState("https://images.unsplash.com/photo-1488161628813-04466f872be2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vZGVsfGVufDB8fDB8fHww");
+  const [imgUser, setimgUser] = useState(
+    <i className="ri-user-line"></i>
+  );
   // useEffect(() => {
   //   apiClient.get("me").then((response) => {
   //     setname(response.data.display_name);
@@ -21,6 +24,9 @@ const TopNavv = () => {
     <>
       <div className="Topnav">
         <div className="firsttop">
+          <div className="hamburger" onClick={sidebardesktopfunctionclick} >
+          <RxHamburgerMenu />
+          </div>
           <div className="leftarrrow" onClick={() => navigate(-1)}>
             <IoIosArrowBack />
           </div>
@@ -46,7 +52,7 @@ const TopNavv = () => {
           </div>
           <div className="Mainprofilediv">
             <div className="profileimg">
-              <img src={imgUser} alt="" />
+              {imgUser}
             </div>
             <div className="profilestore">
               <p className="Namei">{name}</p>

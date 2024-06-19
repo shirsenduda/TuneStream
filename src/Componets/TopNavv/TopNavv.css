@@ -10,7 +10,7 @@
 }
 
 .firsttop {
-    width: 150px;
+    width: 200px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -57,6 +57,28 @@
 }
 .leftarrrow:hover{
     background-color: rgba(44, 44, 44, 0.833);
+    cursor: pointer;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);
+    color: rgba(243, 240, 240, 0.906)
+
+}
+.hamburger {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .3s;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    padding-right: 2.5px;
+    padding-left: 1.5px;
+}
+.hamburger:hover{
+    background-color: rgba(44, 44, 44, 0.224);
     cursor: pointer;
     transition-duration: .3s;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13);

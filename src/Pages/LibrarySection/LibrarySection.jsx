@@ -41,5 +41,5 @@ const Playlists = () => {
       </div>
     </ErrorBoundary>
   );
-}
- export default Playlists ;
+};
+export default Playlists;

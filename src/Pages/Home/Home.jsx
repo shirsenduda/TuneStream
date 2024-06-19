@@ -9,9 +9,10 @@ import PlayPause from "../../Componets/PlayPause/PlayPause";
 import SongsItempage from "../../Pages/SongsItempage/SongsItempage";
 import { Musicdata } from "../../MusicProvider/MusicProvider";
 import MusicAlbum from "../MusicAlbum/MusicAlbum";
-import LibrarySection from '../LibrarySection/LibrarySection'
-const Home = () => {
-  
+import LibrarySection from "../LibrarySection/LibrarySection";
+import Rightside from "../../Componets/Rightside/Rightside";
+// eslint-disable-next-line react/prop-types
+const Home = ({sidebardesktopfunction}) => {
   const displayRef = useRef();
   const location = useLocation();
   const Album = location.pathname.includes("MusicAlbum");
@@ -28,13 +29,13 @@ const Home = () => {
   return (
     <>
       <div className="home" ref={displayRef}>
-        <TopNavv />
         <Routes>
-          <Route path="/" element={<SongDisplay />} />
-          <Route path="/MusicAlbum/:id" element={<MusicAlbum/>} />
+          <Route path="/" element={<SongDisplay sidebardesktopfunctionn={sidebardesktopfunction}/>} />
+          <Route path="/MusicAlbum/:id" element={<MusicAlbum />} />
           <Route path="/SongItem/:id" element={<SongsItempage />} />
-          <Route path="/Library" element={<LibrarySection/>} />
+          <Route path="/Library" element={<LibrarySection />} />
         </Routes>
+
         <PlayPause />
       </div>
     </>

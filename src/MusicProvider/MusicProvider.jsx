@@ -88,31 +88,43 @@ const RecentSongs = [
     musicAlbumGroup: "Lily",
     musicAlbumDate: "3",
   },
+  {
+    id: 11,
+    musicImg: "https://i1.sndcdn.com/artworks-000482216502-eon9rk-t500x500.jpg",
+    musicAlbumGroup: "Lily",
+    musicAlbumDate: "3",
+  },
+  {
+    id: 12,
+    musicImg: "https://i1.sndcdn.com/artworks-000482216502-eon9rk-t500x500.jpg",
+    musicAlbumGroup: "Lily",
+    musicAlbumDate: "3",
+  },
 ];
 
 const ArtistImg = [
   {
-    id: 11,
+    id: 13,
     Artistimage:
       "https://plus.unsplash.com/premium_photo-1682294454494-4ec9ff727ba9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2luZ2VyfGVufDB8fDB8fHww",
   },
   {
-    id: 12,
+    id: 14,
     Artistimage:
       "https://images.unsplash.com/photo-1517230878791-4d28214057c2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2VyfGVufDB8fDB8fHww",
   },
   {
-    id: 13,
+    id: 15,
     Artistimage:
       "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c2luZ2VyfGVufDB8fDB8fHww",
   },
   {
-    id: 14,
+    id: 16,
     Artistimage:
       "https://images.unsplash.com/photo-1505282722405-413748d3de7a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNpbmdlcnxlbnwwfHwwfHx8MA%3D%3D",
   },
   {
-    id: 15,
+    id: 17,
     Artistimage:
       "https://images.unsplash.com/photo-1608319917470-9d9179430f8d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHNpbmdlcnxlbnwwfHwwfHx8MA%3D%3D",
   },

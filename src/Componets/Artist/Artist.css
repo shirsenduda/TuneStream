@@ -1,12 +1,11 @@
 .Artist {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     cursor: pointer;
     transition: all .4s ease-in-out;
     margin-bottom: 10px;
     margin-right: 10px;
-
 }
 
 .Artist:hover {

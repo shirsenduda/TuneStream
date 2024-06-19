@@ -17,6 +17,10 @@ const App = () => {
   //     dispatch({ type: ReducerCases.SET_TOKEN, token });
   //   }
   // }, [token, dispatch]);
+  const [sideBardesktop, setsideBardesktop] = useState(true);
+  const sideBardesktopfunction = () => {
+    setsideBardesktop((i) => !i);
+  };
   return (
     // <>
     //   {token ? (
@@ -33,11 +37,11 @@ const App = () => {
     //   )}
     // </>
     <>
+    
       <div className="main">
-        <Sidebar />
+        <Sidebar  sideBardesktop={sideBardesktop} />
         {/* <Cursor /> */}
-        <Home />
-        <Rightside />
+        <Home sidebardesktopfunction={sideBardesktopfunction}/>
       </div>
     </>
   );

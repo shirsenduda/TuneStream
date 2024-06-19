@@ -6,8 +6,8 @@
     border-radius: 5px;
     overflow: hidden;
     background-color: #030b17;
-    margin-bottom: 12px;
-    margin-right: 10px;
+    margin-bottom: 16px;
+    margin-right: 16px;
     transition: 0.5s;
 }
 
@@ -44,6 +44,13 @@
     font-weight: 500;
     text-transform: capitalize;
     margin-top: 60%;
+    display: inline-block;
+    overflow: hidden;
+    /* make sure it hides the content that overflows */
+    white-space: nowrap;
+    /* don't break the line */
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .dess {
