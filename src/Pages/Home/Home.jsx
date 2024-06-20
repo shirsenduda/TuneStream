@@ -31,9 +31,9 @@ const Home = ({sidebardesktopfunction}) => {
       <div className="home" ref={displayRef}>
         <Routes>
           <Route path="/" element={<SongDisplay sidebardesktopfunctionn={sidebardesktopfunction}/>} />
-          <Route path="/MusicAlbum/:id" element={<MusicAlbum />} />
+          <Route path="/MusicAlbum/:id" element={<MusicAlbum sidebardesktopfunctionn={sidebardesktopfunction}/>} />
           <Route path="/SongItem/:id" element={<SongsItempage />} />
-          <Route path="/Library" element={<LibrarySection />} />
+          <Route path="/Library" element={<LibrarySection sidebardesktopfunctionn={sidebardesktopfunction}/>} />
         </Routes>
 
         <PlayPause />
