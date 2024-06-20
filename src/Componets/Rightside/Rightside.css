@@ -166,7 +166,7 @@
 }
 
 .songrecentDate {
-    width: 60px;
+    width: 50px;
     height: 100%;
     border-radius: 10px;
     display: flex;
@@ -220,7 +220,6 @@
     justify-content: center;
     align-items: center;
     font-size: 19px;
-    
     font-weight: 600;
     color: aliceblue;
     justify-content: space-evenly;

@@ -54,8 +54,7 @@ const Rightside = () => {
               </div>
               <div className="songrecentDate">
                 <div className="playicon">
-                  {" "}
-                  <FaPlayCircle />{" "}
+                  <FaPlayCircle />
                 </div>
               </div>
             </div>

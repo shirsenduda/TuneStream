@@ -7,15 +7,15 @@ import "./SongDisplay.css";
 import Cardtwoo from "../Cardtwoo/Cardtwoo";
 import TopNavv from "../TopNavv/TopNavv";
 
-const SongDisplay = ({sidebardesktopfunctionn}) => {
+const SongDisplay = ({ sidebardesktopfunctionn }) => {
   return (
     <>
       <ErrorBoundary>
         <div className="mainHomefirst">
           <div className="songsAlbumlistt">
-            <TopNavv sidebardesktopfunctionclick={sidebardesktopfunctionn}/>
-            <div className="topsongsdisplay">Top Album</div>
+            <TopNavv sidebardesktopfunctionclick={sidebardesktopfunctionn} />
             <div className="SongsDispalySectionone">
+            <div className="topsongsdisplay">Top Album</div>
               <Cardtwoo />
               <Cardtwoo />
               <Cardtwoo />
@@ -23,7 +23,6 @@ const SongDisplay = ({sidebardesktopfunctionn}) => {
               <Cardtwoo />
               <Cardtwoo />
               <Cardtwoo />
-              
             </div>
           </div>
           <Rightside />

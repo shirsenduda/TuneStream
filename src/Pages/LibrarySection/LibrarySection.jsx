@@ -8,8 +8,10 @@ import { ReducerCases } from "../../Utils/Constants";
 import SongsPlaydisplay from "../../Componets/SongsPlaydisplay/SongsPlaydisplay";
 import ErrorBoundary from "../../Componets/ErrorBoundary/";
 import { Musicdata } from "../../MusicProvider/MusicProvider";
+import TopNavv from "../../Componets/TopNavv/TopNavv";
 
-const Playlists = () => {
+// eslint-disable-next-line react/prop-types
+const Playlists = ({ sidebardesktopfunctionn }) => {
   // const [{ token, playlists }, dispatch] = useStateProvider();
   // useEffect(() => {
   //   const getPlaylistData = async () => {
@@ -33,11 +35,14 @@ const Playlists = () => {
   return (
     <ErrorBoundary>
       <div className="SongsDispalySection">
+        <TopNavv sidebardesktopfunctionclick={sidebardesktopfunctionn} />
+        <div className="SongsDispalySectionone">
         <div className="topsongsdisplay">Top Playlist</div>
 
-        {Musicdata.map((dataa, id) => (
-          <SongsPlaydisplay dataa={dataa} id={id} />
-        ))}
+          {Musicdata.map((dataa, id) => (
+            <SongsPlaydisplay dataa={dataa} id={id} />
+          ))}
+        </div>
       </div>
     </ErrorBoundary>
   );

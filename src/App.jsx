@@ -5,43 +5,20 @@ import { useStateProvider } from "./Utils/StateProvider";
 import { ReducerCases } from "./Utils/Constants";
 import Home from "./Pages/Home/Home";
 import Sidebar from "./Componets/Sidebar/Sidebar";
-import Rightside from "./Componets/Rightside/Rightside";
 import Cursor from "./Componets/Cursor/Cursor";
+
 import "./App.css";
 const App = () => {
-  // const [{ token }, dispatch] = useStateProvider();
-  // useEffect(() => {
-  //   const hash = window.location.hash;
-  //   if (hash) {
-  //     const token = hash.substring(1).split("&")[0].split("=")[1];
-  //     dispatch({ type: ReducerCases.SET_TOKEN, token });
-  //   }
-  // }, [token, dispatch]);
   const [sideBardesktop, setsideBardesktop] = useState(true);
   const sideBardesktopfunction = () => {
     setsideBardesktop((i) => !i);
   };
   return (
-    // <>
-    //   {token ? (
-    //     <>
-    //       <div className="main">
-    //         <Sidebar />
-    //         {/* <Cursor /> */}
-    //         <Home />
-    //         <Rightside />
-    //       </div>
-    //     </>
-    //   ) : (
-    //     <Login />
-    //   )}
-    // </>
     <>
-    
       <div className="main">
-        <Sidebar  sideBardesktop={sideBardesktop} />
+        <Sidebar sideBardesktop={sideBardesktop} />
         {/* <Cursor /> */}
-        <Home sidebardesktopfunction={sideBardesktopfunction}/>
+        <Home sidebardesktopfunction={sideBardesktopfunction} />
       </div>
     </>
   );

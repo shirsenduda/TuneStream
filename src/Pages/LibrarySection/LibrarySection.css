@@ -14,12 +14,7 @@
     margin-bottom: 0px;
     white-space: nowrap;
     overflow: hidden;
-    overflow-y: auto;
-    overflow-x: auto;
-    &::-webkit-scrollbar{
-        width: 0.4rem;
-        border-radius: 10px;
-    }
+    
 }
 
 .displaySongsinHome{
